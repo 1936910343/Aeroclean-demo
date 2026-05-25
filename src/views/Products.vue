@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import image1 from '@/assets/images/12.png'
+import image1 from '../assets/images/12.png'
 
 export default {
   name: 'Products',
