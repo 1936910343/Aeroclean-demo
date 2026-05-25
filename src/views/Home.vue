@@ -112,6 +112,7 @@
 </template>
 
 <script>
+ import image12 from '@/assets/images/12.png'
 export default {
   name: 'Home',
   data() {
@@ -121,25 +122,25 @@ export default {
           id: 1,
           name: 'AEROX-716',
           description: '航空水基清洗剂',
-          image: '/src/assets/images/12.png'
+          image: image12
         },
         {
           id: 2,
           name: 'AEROX-816A',
           description: '航空水基清洗剂',
-          image: '/src/assets/images/12.png'
+          image: image12
         },
         {
           id: 3,
           name: 'AEROX-816B',
           description: '航空水基清洗剂',
-          image: '/src/assets/images/12.png'
+          image: image12
         },
         {
           id: 4,
           name: 'AEROX-816C',
           description: '航空水基清洗剂',
-          image: '/src/assets/images/12.png'
+          image: image12
         }
       ]
     }

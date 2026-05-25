@@ -16,8 +16,7 @@
           </div>
           <div class="product-info">
             <div class="product-image">
-              <!-- <img :src="product.image" :alt="product.name"> -->
-               <img :src="require('@/assets/images/12.png')" :alt="product.name">
+              <img :src="product.image" :alt="product.name">
             </div>
             <div class="product-specs">
               <div class="spec-item">
@@ -43,6 +42,8 @@
 </template>
 
 <script>
+import image12 from '@/assets/images/12.png'
+
 export default {
   name: 'Products',
   data() {
@@ -52,7 +53,7 @@ export default {
           id: 1,
           name: '航空水基清洗剂',
           code: 'AEROX-716',
-          image: '/images/12.png',
+          image: image12,
           application: '燃油喷嘴腔，重质附着物的清洗',
           features: [
             '本品采用活性剂浊点梯度配方设计，将不同独点的非离子活性剂进行增溶',
@@ -65,7 +66,7 @@ export default {
           id: 2,
           name: '航空水基清洗剂',
           code: 'AEROX-816A',
-          image: '/images/12.png',
+          image: image12,
           application: '涡扇，涡轴，无人机，燃气轮机等发动机气流通道的在翼清洗',
           features: [
             '本品采用多电荷胶体结构助洗剂，复合表面活性剂，嵌段聚醚复配技术',
@@ -78,7 +79,7 @@ export default {
           id: 3,
           name: '航空水基清洗剂',
           code: 'AEROX-816B',
-          image: '/images/12.png',
+          image: image12,
           application: '适用于航空零部件制造、维修、使用过程中的清洗',
           features: [
             '本品采用活性剂的复配技术，将非离子表面活性剂与阴阳离子表面活性有机结合',
@@ -91,7 +92,7 @@ export default {
           id: 4,
           name: '航空水基清洗剂',
           code: 'AEROX-816C',
-          image: '/images/12.png',
+          image: image12,
           application: '适用于汽车，高铁，船舶等产品的清洗',
           features: [
             '本品采用活性剂的复配技术，不含钠，钾，强酸，强碱，卤族元素等',
