@@ -3,7 +3,7 @@
     <section class="products-hero">
       <div class="container">
         <h1>产品介绍</h1>
-        <p>AeroX航空水基清洗剂系列</p>
+        <p>AeroX 航空水基清洗剂系列</p>
       </div>
     </section>
 
@@ -16,7 +16,8 @@
           </div>
           <div class="product-info">
             <div class="product-image">
-              <img :src="product.image" :alt="product.name">
+              <!-- <img :src="product.image" :alt="product.name"> -->
+               <img :src="require('@/assets/images/12.png')" :alt="product.name">
             </div>
             <div class="product-specs">
               <div class="spec-item">
